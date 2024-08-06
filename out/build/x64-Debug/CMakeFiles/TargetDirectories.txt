@@ -1,0 +1,3 @@
+F:/cppcode/slinnrserver/slinnrserver/out/build/x64-Debug/CMakeFiles/slinnrserver.dir
+F:/cppcode/slinnrserver/slinnrserver/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+F:/cppcode/slinnrserver/slinnrserver/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,10 @@
+# ninja log v5
+3	709	7440549936213281	CMakeFiles/slinnrserver.dir/slinnrserver.cpp.obj	c80a48be70711a40
+1103	1517	7440576808720258	slinnrserver.exe	670d850e1bc7e271
+9	838	7440549937503609	CMakeFiles/slinnrserver.dir/slinnr/log.cpp.obj	a0d56e02a86640d
+3	842	7440578942572054	CMakeFiles/slinnrserver.dir/tests/test_config.cpp.obj	898d08cd454fd45f
+7	985	7440549938966472	CMakeFiles/slinnrserver.dir/slinnr/config.cpp.obj	9ffbd9bb32eb2909
+3	1082	7440591738533409	CMakeFiles/slinnrserver.dir/tests/test_config.cpp.obj	898d08cd454fd45f
+1083	1215	7440591739659656	slinnrserver.exe	40e028094a0e8bc
+4	844	7440591828974876	CMakeFiles/slinnrserver.dir/tests/test_config.cpp.obj	898d08cd454fd45f
+3	843	7440592167114409	CMakeFiles/slinnrserver.dir/tests/test_config.cpp.obj	898d08cd454fd45f

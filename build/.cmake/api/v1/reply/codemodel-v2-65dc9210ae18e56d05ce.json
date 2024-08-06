@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "slinnrserver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "slinnrserver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slinnrserver-Debug-4177d53d45f4ccfcaf01.json",
+					"name" : "slinnrserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-1e366e3d5a452d5e697c.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_config::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_config-Debug-496f4e9dfc6537296132.json",
+					"name" : "test_config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_fiber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_fiber-Debug-02287f46cdd487a7f387.json",
+					"name" : "test_fiber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_scheduler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_scheduler-Debug-02233da357a344c88ee7.json",
+					"name" : "test_scheduler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_thread::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_thread-Debug-471042494821e95814c7.json",
+					"name" : "test_thread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_util::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_util-Debug-c918602f29746a78e9b0.json",
+					"name" : "test_util",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/slinnr/cppworkspace/slinnrserver/build",
+		"source" : "/home/slinnr/cppworkspace/slinnrserver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

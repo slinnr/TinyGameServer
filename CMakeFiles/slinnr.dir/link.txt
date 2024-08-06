@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -shared -Wl,-soname,libslinnr.so -o lib/libslinnr.so CMakeFiles/slinnr.dir/slinnr/log.cpp.o CMakeFiles/slinnr.dir/slinnr/config.cpp.o 

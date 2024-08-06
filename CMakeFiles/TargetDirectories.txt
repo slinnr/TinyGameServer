@@ -1,0 +1,5 @@
+/home/slinnr/cppworkspace/slinnrserver/CMakeFiles/slinnr.dir
+/home/slinnr/cppworkspace/slinnrserver/CMakeFiles/test.dir
+/home/slinnr/cppworkspace/slinnrserver/CMakeFiles/test_config.dir
+/home/slinnr/cppworkspace/slinnrserver/CMakeFiles/edit_cache.dir
+/home/slinnr/cppworkspace/slinnrserver/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,9 @@
+/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles/slinnrserver.dir
+/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles/test.dir
+/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles/test_config.dir
+/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles/test_thread.dir
+/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles/test_util.dir
+/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles/test_fiber.dir
+/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles/test_scheduler.dir
+/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles/edit_cache.dir
+/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles/rebuild_cache.dir
