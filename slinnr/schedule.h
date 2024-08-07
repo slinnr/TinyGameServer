@@ -51,12 +51,12 @@ void schedule(InputIterator begin, InputIterator end) {
 }
 
 protected:
-virtual void tickle();
-void run();
-void setThis();
-virtual bool stopping();
-virtual void idle();
-
+    virtual void tickle();
+    void run();
+    void setThis();
+    virtual bool stopping();
+    virtual void idle();
+    bool hasIdleThreads(){ return m_idleThreadCount > 0; }
 private:
 template<class FiberOrCb>
 bool scheduleNoLock(FiberOrCb fc, int thread) {

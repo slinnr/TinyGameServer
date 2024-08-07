@@ -16,6 +16,7 @@ set(LIB_SRC
     slinnr/util.cpp
     slinnr/fiber.cpp
     slinnr/schedule.cpp
+    slinnr/iomanager.cpp
     )
 add_library(slinnrserver SHARED ${LIB_SRC})
 force_redefine_file_macro_for_sources(slinnrserver)
@@ -55,6 +56,11 @@ add_executable(test_scheduler tests/test_scheduler.cpp)
 add_dependencies(test_scheduler slinnrserver)
 target_link_libraries(test_scheduler ${LIB_LIB})
 force_redefine_file_macro_for_sources(test_scheduler)
+
+add_executable(test_iomanager tests/test_iomanager.cpp)
+add_dependencies(test_iomanager slinnrserver)
+target_link_libraries(test_iomanager ${LIB_LIB})
+force_redefine_file_macro_for_sources(test_iomanager)
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

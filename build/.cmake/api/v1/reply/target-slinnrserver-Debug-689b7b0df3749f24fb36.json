@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 20,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
@@ -52,8 +52,14 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 21,
+				"line" : 22,
 				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 5
 			},
 			{
 				"command" : 2,
@@ -322,6 +328,44 @@
 			[
 				5
 			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "__FILE__=\"slinnr/iomanager.cpp\""
+				},
+				{
+					"define" : "slinnrserver_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/slinnr/cppworkspace/slinnrserver/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/slinnr/cppenvironment"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/slinnr/cppenvironment/lib"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				6
+			]
 		}
 	],
 	"id" : "slinnrserver::@6890427a1f51a3e7e1df",
@@ -354,7 +398,8 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6
 			]
 		}
 	],
@@ -394,6 +439,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 5,
 			"path" : "slinnr/schedule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 6,
+			"path" : "slinnr/iomanager.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

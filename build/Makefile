@@ -210,6 +210,19 @@ test_scheduler/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_scheduler.dir/build.make CMakeFiles/test_scheduler.dir/build
 .PHONY : test_scheduler/fast
 
+#=============================================================================
+# Target rules for targets named test_iomanager
+
+# Build rule for target.
+test_iomanager: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_iomanager
+.PHONY : test_iomanager
+
+# fast build rule for target.
+test_iomanager/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager.dir/build.make CMakeFiles/test_iomanager.dir/build
+.PHONY : test_iomanager/fast
+
 slinnr/config.o: slinnr/config.cpp.o
 .PHONY : slinnr/config.o
 
@@ -257,6 +270,30 @@ slinnr/fiber.s: slinnr/fiber.cpp.s
 slinnr/fiber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.s
 .PHONY : slinnr/fiber.cpp.s
+
+slinnr/iomanager.o: slinnr/iomanager.cpp.o
+.PHONY : slinnr/iomanager.o
+
+# target to build an object file
+slinnr/iomanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o
+.PHONY : slinnr/iomanager.cpp.o
+
+slinnr/iomanager.i: slinnr/iomanager.cpp.i
+.PHONY : slinnr/iomanager.i
+
+# target to preprocess a source file
+slinnr/iomanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.i
+.PHONY : slinnr/iomanager.cpp.i
+
+slinnr/iomanager.s: slinnr/iomanager.cpp.s
+.PHONY : slinnr/iomanager.s
+
+# target to generate assembly for a file
+slinnr/iomanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.s
+.PHONY : slinnr/iomanager.cpp.s
 
 slinnr/log.o: slinnr/log.cpp.o
 .PHONY : slinnr/log.o
@@ -426,6 +463,30 @@ tests/test_fiber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fiber.dir/build.make CMakeFiles/test_fiber.dir/tests/test_fiber.cpp.s
 .PHONY : tests/test_fiber.cpp.s
 
+tests/test_iomanager.o: tests/test_iomanager.cpp.o
+.PHONY : tests/test_iomanager.o
+
+# target to build an object file
+tests/test_iomanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager.dir/build.make CMakeFiles/test_iomanager.dir/tests/test_iomanager.cpp.o
+.PHONY : tests/test_iomanager.cpp.o
+
+tests/test_iomanager.i: tests/test_iomanager.cpp.i
+.PHONY : tests/test_iomanager.i
+
+# target to preprocess a source file
+tests/test_iomanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager.dir/build.make CMakeFiles/test_iomanager.dir/tests/test_iomanager.cpp.i
+.PHONY : tests/test_iomanager.cpp.i
+
+tests/test_iomanager.s: tests/test_iomanager.cpp.s
+.PHONY : tests/test_iomanager.s
+
+# target to generate assembly for a file
+tests/test_iomanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager.dir/build.make CMakeFiles/test_iomanager.dir/tests/test_iomanager.cpp.s
+.PHONY : tests/test_iomanager.cpp.s
+
 tests/test_scheduler.o: tests/test_scheduler.cpp.o
 .PHONY : tests/test_scheduler.o
 
@@ -510,6 +571,7 @@ help:
 	@echo "... test"
 	@echo "... test_config"
 	@echo "... test_fiber"
+	@echo "... test_iomanager"
 	@echo "... test_scheduler"
 	@echo "... test_thread"
 	@echo "... test_util"
@@ -519,6 +581,9 @@ help:
 	@echo "... slinnr/fiber.o"
 	@echo "... slinnr/fiber.i"
 	@echo "... slinnr/fiber.s"
+	@echo "... slinnr/iomanager.o"
+	@echo "... slinnr/iomanager.i"
+	@echo "... slinnr/iomanager.s"
 	@echo "... slinnr/log.o"
 	@echo "... slinnr/log.i"
 	@echo "... slinnr/log.s"
@@ -540,6 +605,9 @@ help:
 	@echo "... tests/test_fiber.o"
 	@echo "... tests/test_fiber.i"
 	@echo "... tests/test_fiber.s"
+	@echo "... tests/test_iomanager.o"
+	@echo "... tests/test_iomanager.i"
+	@echo "... tests/test_iomanager.s"
 	@echo "... tests/test_scheduler.o"
 	@echo "... tests/test_scheduler.i"
 	@echo "... tests/test_scheduler.s"

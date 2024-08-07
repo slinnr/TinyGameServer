@@ -21,7 +21,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -42,7 +43,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -51,49 +53,56 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "slinnrserver::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-slinnrserver-Debug-4177d53d45f4ccfcaf01.json",
+					"jsonFile" : "target-slinnrserver-Debug-689b7b0df3749f24fb36.json",
 					"name" : "slinnrserver",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-Debug-1e366e3d5a452d5e697c.json",
+					"jsonFile" : "target-test-Debug-cb43cb2af3651b4955a6.json",
 					"name" : "test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_config::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_config-Debug-496f4e9dfc6537296132.json",
+					"jsonFile" : "target-test_config-Debug-79adc38c79f76be35960.json",
 					"name" : "test_config",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_fiber::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_fiber-Debug-02287f46cdd487a7f387.json",
+					"jsonFile" : "target-test_fiber-Debug-79af17f75795e7724c16.json",
 					"name" : "test_fiber",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "test_iomanager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_iomanager-Debug-3e1b94b4536ac3a2746b.json",
+					"name" : "test_iomanager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "test_scheduler::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_scheduler-Debug-02233da357a344c88ee7.json",
+					"jsonFile" : "target-test_scheduler-Debug-dbe3ecadfdb6c6c259d5.json",
 					"name" : "test_scheduler",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_thread::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_thread-Debug-471042494821e95814c7.json",
+					"jsonFile" : "target-test_thread-Debug-8bf9d8e12546219c01fc.json",
 					"name" : "test_thread",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_util::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_util-Debug-c918602f29746a78e9b0.json",
+					"jsonFile" : "target-test_util-Debug-5334e633817f4835cc3d.json",
 					"name" : "test_util",
 					"projectIndex" : 0
 				}

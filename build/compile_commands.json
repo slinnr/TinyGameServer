@@ -31,6 +31,11 @@
 },
 {
   "directory": "/home/slinnr/cppworkspace/slinnrserver/build",
+  "command": "/usr/bin/c++ -Dslinnrserver_EXPORTS -D__FILE__=\\\"slinnr/iomanager.cpp\\\" -I/home/slinnr/cppworkspace/slinnrserver/. -I/home/slinnr/cppenvironment -I/home/slinnr/cppenvironment/lib  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g -fPIC -o CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/iomanager.cpp",
+  "file": "/home/slinnr/cppworkspace/slinnrserver/slinnr/iomanager.cpp"
+},
+{
+  "directory": "/home/slinnr/cppworkspace/slinnrserver/build",
   "command": "/usr/bin/c++  -D__FILE__=\\\"tests/test.cpp\\\" -I/home/slinnr/cppworkspace/slinnrserver/. -I/home/slinnr/cppenvironment -I/home/slinnr/cppenvironment/lib  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g -o CMakeFiles/test.dir/tests/test.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/tests/test.cpp",
   "file": "/home/slinnr/cppworkspace/slinnrserver/tests/test.cpp"
 },
@@ -58,5 +63,10 @@
   "directory": "/home/slinnr/cppworkspace/slinnrserver/build",
   "command": "/usr/bin/c++  -D__FILE__=\\\"tests/test_scheduler.cpp\\\" -I/home/slinnr/cppworkspace/slinnrserver/. -I/home/slinnr/cppenvironment -I/home/slinnr/cppenvironment/lib  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g -o CMakeFiles/test_scheduler.dir/tests/test_scheduler.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/tests/test_scheduler.cpp",
   "file": "/home/slinnr/cppworkspace/slinnrserver/tests/test_scheduler.cpp"
+},
+{
+  "directory": "/home/slinnr/cppworkspace/slinnrserver/build",
+  "command": "/usr/bin/c++  -D__FILE__=\\\"tests/test_iomanager.cpp\\\" -I/home/slinnr/cppworkspace/slinnrserver/. -I/home/slinnr/cppenvironment -I/home/slinnr/cppenvironment/lib  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/tests/test_iomanager.cpp",
+  "file": "/home/slinnr/cppworkspace/slinnrserver/tests/test_iomanager.cpp"
 }
 ]
