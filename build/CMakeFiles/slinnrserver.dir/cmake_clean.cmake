@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/slinnrserver.dir/slinnr/schedule.cpp.o.d"
   "CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.o"
   "CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.o.d"
+  "CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o"
+  "CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o.d"
   "CMakeFiles/slinnrserver.dir/slinnr/util.cpp.o"
   "CMakeFiles/slinnrserver.dir/slinnr/util.cpp.o.d"
 )

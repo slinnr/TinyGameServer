@@ -367,6 +367,30 @@ slinnr/thread.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.s
 .PHONY : slinnr/thread.cpp.s
 
+slinnr/timer.o: slinnr/timer.cpp.o
+.PHONY : slinnr/timer.o
+
+# target to build an object file
+slinnr/timer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o
+.PHONY : slinnr/timer.cpp.o
+
+slinnr/timer.i: slinnr/timer.cpp.i
+.PHONY : slinnr/timer.i
+
+# target to preprocess a source file
+slinnr/timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.i
+.PHONY : slinnr/timer.cpp.i
+
+slinnr/timer.s: slinnr/timer.cpp.s
+.PHONY : slinnr/timer.s
+
+# target to generate assembly for a file
+slinnr/timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.s
+.PHONY : slinnr/timer.cpp.s
+
 slinnr/util.o: slinnr/util.cpp.o
 .PHONY : slinnr/util.o
 
@@ -593,6 +617,9 @@ help:
 	@echo "... slinnr/thread.o"
 	@echo "... slinnr/thread.i"
 	@echo "... slinnr/thread.s"
+	@echo "... slinnr/timer.o"
+	@echo "... slinnr/timer.i"
+	@echo "... slinnr/timer.s"
 	@echo "... slinnr/util.o"
 	@echo "... slinnr/util.i"
 	@echo "... slinnr/util.s"

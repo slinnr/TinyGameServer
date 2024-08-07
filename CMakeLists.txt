@@ -17,6 +17,7 @@ set(LIB_SRC
     slinnr/fiber.cpp
     slinnr/schedule.cpp
     slinnr/iomanager.cpp
+    slinnr/timer.cpp
     )
 add_library(slinnrserver SHARED ${LIB_SRC})
 force_redefine_file_macro_for_sources(slinnrserver)

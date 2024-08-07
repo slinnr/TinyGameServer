@@ -3,6 +3,7 @@
 #include "log.h"
 #include <vector>
 #include <thread>
+#include <sys/time.h>
 #include "fiber.h"
 
 namespace sylar {
@@ -15,6 +16,19 @@ pid_t GetThreadId() {
 
 uint32_t GetFiberId() {
     return sylar::Fiber::GetFiberId();
+}
+
+// 时间ms
+uint64_t GetCurrentMS() {
+    struct timeval tv;
+    gettimeofday(&tv, NULL);
+    return tv.tv_sec * 1000ul + tv.tv_usec / 1000;
+}
+
+uint64_t GetCurrentUS() {
+    struct timeval tv;
+    gettimeofday(&tv, NULL);
+    return tv.tv_sec * 1000 * 1000ul + tv.tv_usec;
 }
 
 void Backtrace(std::vector<std::string>& bt, int size, int skip){
