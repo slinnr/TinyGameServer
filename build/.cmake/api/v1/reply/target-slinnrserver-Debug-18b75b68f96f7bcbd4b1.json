@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 22,
+				"line" : 23,
 				"parent" : 0
 			},
 			{
@@ -52,8 +52,14 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 23,
+				"line" : 24,
 				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 5
 			},
 			{
 				"command" : 2,
@@ -410,6 +416,44 @@
 			[
 				7
 			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 14,
+					"define" : "__FILE__=\"slinnr/hook.cpp\""
+				},
+				{
+					"define" : "slinnrserver_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/slinnr/cppworkspace/slinnrserver/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/slinnr/cppenvironment"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/slinnr/cppenvironment/lib"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				8
+			]
 		}
 	],
 	"id" : "slinnrserver::@6890427a1f51a3e7e1df",
@@ -444,7 +488,8 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8
 			]
 		}
 	],
@@ -496,6 +541,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 7,
 			"path" : "slinnr/timer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 8,
+			"path" : "slinnr/hook.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

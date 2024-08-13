@@ -41,6 +41,11 @@
 },
 {
   "directory": "/home/slinnr/cppworkspace/slinnrserver/build",
+  "command": "/usr/bin/c++ -Dslinnrserver_EXPORTS -D__FILE__=\\\"slinnr/hook.cpp\\\" -I/home/slinnr/cppworkspace/slinnrserver/. -I/home/slinnr/cppenvironment -I/home/slinnr/cppenvironment/lib  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g -fPIC -o CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/hook.cpp",
+  "file": "/home/slinnr/cppworkspace/slinnrserver/slinnr/hook.cpp"
+},
+{
+  "directory": "/home/slinnr/cppworkspace/slinnrserver/build",
   "command": "/usr/bin/c++  -D__FILE__=\\\"tests/test.cpp\\\" -I/home/slinnr/cppworkspace/slinnrserver/. -I/home/slinnr/cppenvironment -I/home/slinnr/cppenvironment/lib  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g -o CMakeFiles/test.dir/tests/test.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/tests/test.cpp",
   "file": "/home/slinnr/cppworkspace/slinnrserver/tests/test.cpp"
 },
@@ -73,5 +78,10 @@
   "directory": "/home/slinnr/cppworkspace/slinnrserver/build",
   "command": "/usr/bin/c++  -D__FILE__=\\\"tests/test_iomanager.cpp\\\" -I/home/slinnr/cppworkspace/slinnrserver/. -I/home/slinnr/cppenvironment -I/home/slinnr/cppenvironment/lib  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/tests/test_iomanager.cpp",
   "file": "/home/slinnr/cppworkspace/slinnrserver/tests/test_iomanager.cpp"
+},
+{
+  "directory": "/home/slinnr/cppworkspace/slinnrserver/build",
+  "command": "/usr/bin/c++  -D__FILE__=\\\"tests/test_hook.cpp\\\" -I/home/slinnr/cppworkspace/slinnrserver/. -I/home/slinnr/cppenvironment -I/home/slinnr/cppenvironment/lib  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g -o CMakeFiles/test_hook.dir/tests/test_hook.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/tests/test_hook.cpp",
+  "file": "/home/slinnr/cppworkspace/slinnrserver/tests/test_hook.cpp"
 }
 ]

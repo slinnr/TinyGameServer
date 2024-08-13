@@ -8,7 +8,7 @@ void test_fiber() {
 }
 
 int main(int argc, char** argv) {
-    sylar::Scheduler sc(3);
+    sylar::Scheduler sc(1);
     sc.start();
     sc.schedule(&test_fiber);
     sc.stop();

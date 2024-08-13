@@ -223,6 +223,19 @@ test_iomanager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager.dir/build.make CMakeFiles/test_iomanager.dir/build
 .PHONY : test_iomanager/fast
 
+#=============================================================================
+# Target rules for targets named test_hook
+
+# Build rule for target.
+test_hook: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_hook
+.PHONY : test_hook
+
+# fast build rule for target.
+test_hook/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hook.dir/build.make CMakeFiles/test_hook.dir/build
+.PHONY : test_hook/fast
+
 slinnr/config.o: slinnr/config.cpp.o
 .PHONY : slinnr/config.o
 
@@ -270,6 +283,30 @@ slinnr/fiber.s: slinnr/fiber.cpp.s
 slinnr/fiber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.s
 .PHONY : slinnr/fiber.cpp.s
+
+slinnr/hook.o: slinnr/hook.cpp.o
+.PHONY : slinnr/hook.o
+
+# target to build an object file
+slinnr/hook.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o
+.PHONY : slinnr/hook.cpp.o
+
+slinnr/hook.i: slinnr/hook.cpp.i
+.PHONY : slinnr/hook.i
+
+# target to preprocess a source file
+slinnr/hook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.i
+.PHONY : slinnr/hook.cpp.i
+
+slinnr/hook.s: slinnr/hook.cpp.s
+.PHONY : slinnr/hook.s
+
+# target to generate assembly for a file
+slinnr/hook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.s
+.PHONY : slinnr/hook.cpp.s
 
 slinnr/iomanager.o: slinnr/iomanager.cpp.o
 .PHONY : slinnr/iomanager.o
@@ -487,6 +524,30 @@ tests/test_fiber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fiber.dir/build.make CMakeFiles/test_fiber.dir/tests/test_fiber.cpp.s
 .PHONY : tests/test_fiber.cpp.s
 
+tests/test_hook.o: tests/test_hook.cpp.o
+.PHONY : tests/test_hook.o
+
+# target to build an object file
+tests/test_hook.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hook.dir/build.make CMakeFiles/test_hook.dir/tests/test_hook.cpp.o
+.PHONY : tests/test_hook.cpp.o
+
+tests/test_hook.i: tests/test_hook.cpp.i
+.PHONY : tests/test_hook.i
+
+# target to preprocess a source file
+tests/test_hook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hook.dir/build.make CMakeFiles/test_hook.dir/tests/test_hook.cpp.i
+.PHONY : tests/test_hook.cpp.i
+
+tests/test_hook.s: tests/test_hook.cpp.s
+.PHONY : tests/test_hook.s
+
+# target to generate assembly for a file
+tests/test_hook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hook.dir/build.make CMakeFiles/test_hook.dir/tests/test_hook.cpp.s
+.PHONY : tests/test_hook.cpp.s
+
 tests/test_iomanager.o: tests/test_iomanager.cpp.o
 .PHONY : tests/test_iomanager.o
 
@@ -595,6 +656,7 @@ help:
 	@echo "... test"
 	@echo "... test_config"
 	@echo "... test_fiber"
+	@echo "... test_hook"
 	@echo "... test_iomanager"
 	@echo "... test_scheduler"
 	@echo "... test_thread"
@@ -605,6 +667,9 @@ help:
 	@echo "... slinnr/fiber.o"
 	@echo "... slinnr/fiber.i"
 	@echo "... slinnr/fiber.s"
+	@echo "... slinnr/hook.o"
+	@echo "... slinnr/hook.i"
+	@echo "... slinnr/hook.s"
 	@echo "... slinnr/iomanager.o"
 	@echo "... slinnr/iomanager.i"
 	@echo "... slinnr/iomanager.s"
@@ -632,6 +697,9 @@ help:
 	@echo "... tests/test_fiber.o"
 	@echo "... tests/test_fiber.i"
 	@echo "... tests/test_fiber.s"
+	@echo "... tests/test_hook.o"
+	@echo "... tests/test_hook.i"
+	@echo "... tests/test_hook.s"
 	@echo "... tests/test_iomanager.o"
 	@echo "... tests/test_iomanager.i"
 	@echo "... tests/test_iomanager.s"

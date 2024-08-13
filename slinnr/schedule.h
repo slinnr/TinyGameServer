@@ -105,19 +105,19 @@ struct FiberAndThread {
 };
 
 private:
-MutexType m_mutex;
-std::vector<Thread::ptr> m_threads;
-Fiber::ptr m_rootFiber;
-std::list<FiberAndThread> m_fibers;
-std::string m_name;
+    MutexType m_mutex;
+    std::vector<Thread::ptr> m_threads;
+    Fiber::ptr m_rootFiber;
+    std::list<FiberAndThread> m_fibers;
+    std::string m_name;
 
 protected:
-std::vector<int> m_threadIds;
-size_t m_threadCount = 0;
-std::atomic<size_t> m_activeThreadCount = {0};
-std::atomic<size_t> m_idleThreadCount = {0};
-bool m_stopping = true;
-bool m_autoStop = false;
-int m_rootThread = 0;
+    std::vector<int> m_threadIds;
+    size_t m_threadCount = 0;
+    std::atomic<size_t> m_activeThreadCount = {0};
+    std::atomic<size_t> m_idleThreadCount = {0};
+    bool m_stopping = true;
+    bool m_autoStop = false;
+    int m_rootThread = 0;
 };
 }

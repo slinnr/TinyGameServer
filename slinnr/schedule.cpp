@@ -1,6 +1,8 @@
 #include "schedule.h"
 #include "log.h"
 #include "macro.h"
+#include "util.h"
+#include "hook.h"
 
 namespace sylar
 {
@@ -23,6 +25,7 @@ namespace sylar
             m_rootFiber.reset(new Fiber(std::bind(&Scheduler::run, this), 0, true));
             sylar::Thread::SetName(m_name);
             t_fiber = m_rootFiber.get();
+            m_rootThread = sylar::GetThreadId();
             m_threadIds.push_back(m_rootThread);
         }
         else
@@ -45,6 +48,7 @@ namespace sylar
     {
         return t_scheduler;
     }
+
     Fiber *Scheduler::GetMainFiber()
     {
         return t_fiber;
@@ -118,6 +122,7 @@ namespace sylar
 
     void Scheduler::run()
     {
+        set_hook_enable(true);
         Fiber::GetThis();
         setThis();
 

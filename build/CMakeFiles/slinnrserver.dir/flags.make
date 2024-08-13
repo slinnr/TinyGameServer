@@ -24,3 +24,5 @@ CXX_FLAGS =  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-fu
 
 # Custom defines: CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o_DEFINES = __FILE__="slinnr/timer.cpp"
 
+# Custom defines: CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o_DEFINES = __FILE__="slinnr/hook.cpp"
+

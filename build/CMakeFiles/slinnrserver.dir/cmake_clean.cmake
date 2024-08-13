@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o.d"
   "CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.o"
   "CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.o.d"
+  "CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o"
+  "CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o.d"
   "CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o"
   "CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o.d"
   "CMakeFiles/slinnrserver.dir/slinnr/log.cpp.o"

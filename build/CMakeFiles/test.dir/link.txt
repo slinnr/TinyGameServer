@@ -1,1 +1,1 @@
-/usr/bin/c++  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g CMakeFiles/test.dir/tests/test.cpp.o -o ../bin/test  -Wl,-rpath,/home/slinnr/cppworkspace/slinnrserver/lib ../lib/libslinnrserver.so -lpthread -lyaml-cpp 
+/usr/bin/c++  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g CMakeFiles/test.dir/tests/test.cpp.o -o ../bin/test  -Wl,-rpath,/home/slinnr/cppworkspace/slinnrserver/lib ../lib/libslinnrserver.so -lpthread -lyaml-cpp -ldl 

@@ -18,6 +18,7 @@ set(LIB_SRC
     slinnr/schedule.cpp
     slinnr/iomanager.cpp
     slinnr/timer.cpp
+    slinnr/hook.cpp
     )
 add_library(slinnrserver SHARED ${LIB_SRC})
 force_redefine_file_macro_for_sources(slinnrserver)
@@ -26,6 +27,7 @@ set(LIB_LIB
     slinnrserver
     pthread
     yaml-cpp
+    dl
 )
 
 add_executable(test tests/test.cpp)
@@ -62,6 +64,11 @@ add_executable(test_iomanager tests/test_iomanager.cpp)
 add_dependencies(test_iomanager slinnrserver)
 target_link_libraries(test_iomanager ${LIB_LIB})
 force_redefine_file_macro_for_sources(test_iomanager)
+
+add_executable(test_hook tests/test_hook.cpp)
+add_dependencies(test_hook slinnrserver)
+target_link_libraries(test_hook ${LIB_LIB})
+force_redefine_file_macro_for_sources(test_hook)
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
