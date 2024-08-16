@@ -8,6 +8,8 @@ CXX_INCLUDES = -I/home/slinnr/cppworkspace/slinnrserver/. -I/home/slinnr/cppenvi
 
 CXX_FLAGS =  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -g -fPIC
 
+# Custom defines: CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o_DEFINES = __FILE__="slinnr/address.cpp"
+
 # Custom defines: CMakeFiles/slinnrserver.dir/slinnr/log.cpp.o_DEFINES = __FILE__="slinnr/log.cpp"
 
 # Custom defines: CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o_DEFINES = __FILE__="slinnr/config.cpp"
@@ -25,4 +27,6 @@ CXX_FLAGS =  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-fu
 # Custom defines: CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o_DEFINES = __FILE__="slinnr/timer.cpp"
 
 # Custom defines: CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o_DEFINES = __FILE__="slinnr/hook.cpp"
+
+# Custom defines: CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o_DEFINES = __FILE__="slinnr/fd_manager.cpp"
 

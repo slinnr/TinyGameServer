@@ -10,6 +10,7 @@ include_directories(.)
 include_directories(/home/slinnr/cppenvironment)
 include_directories(/home/slinnr/cppenvironment/lib)
 set(LIB_SRC
+    slinnr/address.cpp
     slinnr/log.cpp
     slinnr/config.cpp
     slinnr/thread.cpp
@@ -19,6 +20,7 @@ set(LIB_SRC
     slinnr/iomanager.cpp
     slinnr/timer.cpp
     slinnr/hook.cpp
+    slinnr/fd_manager.cpp
     )
 add_library(slinnrserver SHARED ${LIB_SRC})
 force_redefine_file_macro_for_sources(slinnrserver)
@@ -69,6 +71,11 @@ add_executable(test_hook tests/test_hook.cpp)
 add_dependencies(test_hook slinnrserver)
 target_link_libraries(test_hook ${LIB_LIB})
 force_redefine_file_macro_for_sources(test_hook)
+
+add_executable(test_address tests/test_address.cpp)
+add_dependencies(test_address slinnrserver)
+target_link_libraries(test_address ${LIB_LIB})
+force_redefine_file_macro_for_sources(test_address)
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

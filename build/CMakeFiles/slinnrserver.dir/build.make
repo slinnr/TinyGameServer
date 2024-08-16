@@ -72,10 +72,24 @@ include CMakeFiles/slinnrserver.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/slinnrserver.dir/flags.make
 
+CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o: CMakeFiles/slinnrserver.dir/flags.make
+CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o: ../slinnr/address.cpp
+CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o: CMakeFiles/slinnrserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/address.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o -MF CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o.d -o CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/address.cpp
+
+CMakeFiles/slinnrserver.dir/slinnr/address.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slinnrserver.dir/slinnr/address.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/address.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slinnr/cppworkspace/slinnrserver/slinnr/address.cpp > CMakeFiles/slinnrserver.dir/slinnr/address.cpp.i
+
+CMakeFiles/slinnrserver.dir/slinnr/address.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slinnrserver.dir/slinnr/address.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/address.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slinnr/cppworkspace/slinnrserver/slinnr/address.cpp -o CMakeFiles/slinnrserver.dir/slinnr/address.cpp.s
+
 CMakeFiles/slinnrserver.dir/slinnr/log.cpp.o: CMakeFiles/slinnrserver.dir/flags.make
 CMakeFiles/slinnrserver.dir/slinnr/log.cpp.o: ../slinnr/log.cpp
 CMakeFiles/slinnrserver.dir/slinnr/log.cpp.o: CMakeFiles/slinnrserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/log.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/log.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slinnrserver.dir/slinnr/log.cpp.o -MF CMakeFiles/slinnrserver.dir/slinnr/log.cpp.o.d -o CMakeFiles/slinnrserver.dir/slinnr/log.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/log.cpp
 
 CMakeFiles/slinnrserver.dir/slinnr/log.cpp.i: cmake_force
@@ -89,7 +103,7 @@ CMakeFiles/slinnrserver.dir/slinnr/log.cpp.s: cmake_force
 CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o: CMakeFiles/slinnrserver.dir/flags.make
 CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o: ../slinnr/config.cpp
 CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o: CMakeFiles/slinnrserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/config.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o -MF CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o.d -o CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/config.cpp
 
 CMakeFiles/slinnrserver.dir/slinnr/config.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/slinnrserver.dir/slinnr/config.cpp.s: cmake_force
 CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.o: CMakeFiles/slinnrserver.dir/flags.make
 CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.o: ../slinnr/thread.cpp
 CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.o: CMakeFiles/slinnrserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/thread.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.o -MF CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.o.d -o CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/thread.cpp
 
 CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.s: cmake_force
 CMakeFiles/slinnrserver.dir/slinnr/util.cpp.o: CMakeFiles/slinnrserver.dir/flags.make
 CMakeFiles/slinnrserver.dir/slinnr/util.cpp.o: ../slinnr/util.cpp
 CMakeFiles/slinnrserver.dir/slinnr/util.cpp.o: CMakeFiles/slinnrserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/util.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/util.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/util.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slinnrserver.dir/slinnr/util.cpp.o -MF CMakeFiles/slinnrserver.dir/slinnr/util.cpp.o.d -o CMakeFiles/slinnrserver.dir/slinnr/util.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/util.cpp
 
 CMakeFiles/slinnrserver.dir/slinnr/util.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/slinnrserver.dir/slinnr/util.cpp.s: cmake_force
 CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.o: CMakeFiles/slinnrserver.dir/flags.make
 CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.o: ../slinnr/fiber.cpp
 CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.o: CMakeFiles/slinnrserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/fiber.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.o -MF CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.o.d -o CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/fiber.cpp
 
 CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.s: cmake_force
 CMakeFiles/slinnrserver.dir/slinnr/schedule.cpp.o: CMakeFiles/slinnrserver.dir/flags.make
 CMakeFiles/slinnrserver.dir/slinnr/schedule.cpp.o: ../slinnr/schedule.cpp
 CMakeFiles/slinnrserver.dir/slinnr/schedule.cpp.o: CMakeFiles/slinnrserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/schedule.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/schedule.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/schedule.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slinnrserver.dir/slinnr/schedule.cpp.o -MF CMakeFiles/slinnrserver.dir/slinnr/schedule.cpp.o.d -o CMakeFiles/slinnrserver.dir/slinnr/schedule.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/schedule.cpp
 
 CMakeFiles/slinnrserver.dir/slinnr/schedule.cpp.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/slinnrserver.dir/slinnr/schedule.cpp.s: cmake_force
 CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o: CMakeFiles/slinnrserver.dir/flags.make
 CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o: ../slinnr/iomanager.cpp
 CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o: CMakeFiles/slinnrserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/iomanager.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o -MF CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o.d -o CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/iomanager.cpp
 
 CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.s: cmake_force
 CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o: CMakeFiles/slinnrserver.dir/flags.make
 CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o: ../slinnr/timer.cpp
 CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o: CMakeFiles/slinnrserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/timer.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o -MF CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o.d -o CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/timer.cpp
 
 CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.s: cmake_force
 CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o: CMakeFiles/slinnrserver.dir/flags.make
 CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o: ../slinnr/hook.cpp
 CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o: CMakeFiles/slinnrserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/hook.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o -MF CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o.d -o CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/hook.cpp
 
 CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.i: cmake_force
@@ -198,8 +212,23 @@ CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/hook.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slinnr/cppworkspace/slinnrserver/slinnr/hook.cpp -o CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.s
 
+CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o: CMakeFiles/slinnrserver.dir/flags.make
+CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o: ../slinnr/fd_manager.cpp
+CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o: CMakeFiles/slinnrserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/fd_manager.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o -MF CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o.d -o CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o -c /home/slinnr/cppworkspace/slinnrserver/slinnr/fd_manager.cpp
+
+CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/fd_manager.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slinnr/cppworkspace/slinnrserver/slinnr/fd_manager.cpp > CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.i
+
+CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"slinnr/fd_manager.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slinnr/cppworkspace/slinnrserver/slinnr/fd_manager.cpp -o CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.s
+
 # Object files for target slinnrserver
 slinnrserver_OBJECTS = \
+"CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o" \
 "CMakeFiles/slinnrserver.dir/slinnr/log.cpp.o" \
 "CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o" \
 "CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.o" \
@@ -208,11 +237,13 @@ slinnrserver_OBJECTS = \
 "CMakeFiles/slinnrserver.dir/slinnr/schedule.cpp.o" \
 "CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o" \
 "CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o" \
-"CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o"
+"CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o" \
+"CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o"
 
 # External object files for target slinnrserver
 slinnrserver_EXTERNAL_OBJECTS =
 
+../lib/libslinnrserver.so: CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o
 ../lib/libslinnrserver.so: CMakeFiles/slinnrserver.dir/slinnr/log.cpp.o
 ../lib/libslinnrserver.so: CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o
 ../lib/libslinnrserver.so: CMakeFiles/slinnrserver.dir/slinnr/thread.cpp.o
@@ -222,9 +253,10 @@ slinnrserver_EXTERNAL_OBJECTS =
 ../lib/libslinnrserver.so: CMakeFiles/slinnrserver.dir/slinnr/iomanager.cpp.o
 ../lib/libslinnrserver.so: CMakeFiles/slinnrserver.dir/slinnr/timer.cpp.o
 ../lib/libslinnrserver.so: CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o
+../lib/libslinnrserver.so: CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o
 ../lib/libslinnrserver.so: CMakeFiles/slinnrserver.dir/build.make
 ../lib/libslinnrserver.so: CMakeFiles/slinnrserver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library ../lib/libslinnrserver.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/slinnr/cppworkspace/slinnrserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library ../lib/libslinnrserver.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slinnrserver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

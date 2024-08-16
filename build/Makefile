@@ -236,6 +236,43 @@ test_hook/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hook.dir/build.make CMakeFiles/test_hook.dir/build
 .PHONY : test_hook/fast
 
+#=============================================================================
+# Target rules for targets named test_address
+
+# Build rule for target.
+test_address: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_address
+.PHONY : test_address
+
+# fast build rule for target.
+test_address/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_address.dir/build.make CMakeFiles/test_address.dir/build
+.PHONY : test_address/fast
+
+slinnr/address.o: slinnr/address.cpp.o
+.PHONY : slinnr/address.o
+
+# target to build an object file
+slinnr/address.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o
+.PHONY : slinnr/address.cpp.o
+
+slinnr/address.i: slinnr/address.cpp.i
+.PHONY : slinnr/address.i
+
+# target to preprocess a source file
+slinnr/address.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/address.cpp.i
+.PHONY : slinnr/address.cpp.i
+
+slinnr/address.s: slinnr/address.cpp.s
+.PHONY : slinnr/address.s
+
+# target to generate assembly for a file
+slinnr/address.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/address.cpp.s
+.PHONY : slinnr/address.cpp.s
+
 slinnr/config.o: slinnr/config.cpp.o
 .PHONY : slinnr/config.o
 
@@ -259,6 +296,30 @@ slinnr/config.s: slinnr/config.cpp.s
 slinnr/config.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/config.cpp.s
 .PHONY : slinnr/config.cpp.s
+
+slinnr/fd_manager.o: slinnr/fd_manager.cpp.o
+.PHONY : slinnr/fd_manager.o
+
+# target to build an object file
+slinnr/fd_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o
+.PHONY : slinnr/fd_manager.cpp.o
+
+slinnr/fd_manager.i: slinnr/fd_manager.cpp.i
+.PHONY : slinnr/fd_manager.i
+
+# target to preprocess a source file
+slinnr/fd_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.i
+.PHONY : slinnr/fd_manager.cpp.i
+
+slinnr/fd_manager.s: slinnr/fd_manager.cpp.s
+.PHONY : slinnr/fd_manager.s
+
+# target to generate assembly for a file
+slinnr/fd_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slinnrserver.dir/build.make CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.s
+.PHONY : slinnr/fd_manager.cpp.s
 
 slinnr/fiber.o: slinnr/fiber.cpp.o
 .PHONY : slinnr/fiber.o
@@ -476,6 +537,30 @@ tests/test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/test.cpp.s
 .PHONY : tests/test.cpp.s
 
+tests/test_address.o: tests/test_address.cpp.o
+.PHONY : tests/test_address.o
+
+# target to build an object file
+tests/test_address.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_address.dir/build.make CMakeFiles/test_address.dir/tests/test_address.cpp.o
+.PHONY : tests/test_address.cpp.o
+
+tests/test_address.i: tests/test_address.cpp.i
+.PHONY : tests/test_address.i
+
+# target to preprocess a source file
+tests/test_address.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_address.dir/build.make CMakeFiles/test_address.dir/tests/test_address.cpp.i
+.PHONY : tests/test_address.cpp.i
+
+tests/test_address.s: tests/test_address.cpp.s
+.PHONY : tests/test_address.s
+
+# target to generate assembly for a file
+tests/test_address.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_address.dir/build.make CMakeFiles/test_address.dir/tests/test_address.cpp.s
+.PHONY : tests/test_address.cpp.s
+
 tests/test_config.o: tests/test_config.cpp.o
 .PHONY : tests/test_config.o
 
@@ -654,6 +739,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... slinnrserver"
 	@echo "... test"
+	@echo "... test_address"
 	@echo "... test_config"
 	@echo "... test_fiber"
 	@echo "... test_hook"
@@ -661,9 +747,15 @@ help:
 	@echo "... test_scheduler"
 	@echo "... test_thread"
 	@echo "... test_util"
+	@echo "... slinnr/address.o"
+	@echo "... slinnr/address.i"
+	@echo "... slinnr/address.s"
 	@echo "... slinnr/config.o"
 	@echo "... slinnr/config.i"
 	@echo "... slinnr/config.s"
+	@echo "... slinnr/fd_manager.o"
+	@echo "... slinnr/fd_manager.i"
+	@echo "... slinnr/fd_manager.s"
 	@echo "... slinnr/fiber.o"
 	@echo "... slinnr/fiber.i"
 	@echo "... slinnr/fiber.s"
@@ -691,6 +783,9 @@ help:
 	@echo "... tests/test.o"
 	@echo "... tests/test.i"
 	@echo "... tests/test.s"
+	@echo "... tests/test_address.o"
+	@echo "... tests/test_address.i"
+	@echo "... tests/test_address.s"
 	@echo "... tests/test_config.o"
 	@echo "... tests/test_config.i"
 	@echo "... tests/test_config.s"

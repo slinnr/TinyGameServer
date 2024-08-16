@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "../lib/libslinnrserver.pdb"
   "../lib/libslinnrserver.so"
+  "CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o"
+  "CMakeFiles/slinnrserver.dir/slinnr/address.cpp.o.d"
   "CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o"
   "CMakeFiles/slinnrserver.dir/slinnr/config.cpp.o.d"
+  "CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o"
+  "CMakeFiles/slinnrserver.dir/slinnr/fd_manager.cpp.o.d"
   "CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.o"
   "CMakeFiles/slinnrserver.dir/slinnr/fiber.cpp.o.d"
   "CMakeFiles/slinnrserver.dir/slinnr/hook.cpp.o"
