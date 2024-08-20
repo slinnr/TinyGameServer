@@ -57,7 +57,7 @@ protected:
 
 private:
     int m_epfd = 0;
-    int m_tickleFds[2];
+    int m_tickleFds[2]; //fd[0]读端，fd[1]写端
 
     std::atomic<size_t> m_pendingEventCount = {0};
     RWMutexType m_mutex;
