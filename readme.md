@@ -9,3 +9,6 @@
 * 基于IO协程调度实现的定时器
 * Sleep、Read、Write等接口的hook
 * Address封装，包括IPv4、IPv6和UnixAddress
+待实现的功能
+* socket的封装
+* 应用层协议封装
